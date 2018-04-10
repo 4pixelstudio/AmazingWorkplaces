@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
 
+h1,h2,h3,h4,h5{
+  font-family: 'Open Sans' !important;
+  font-weight: 700;
+}
+
 a:hover{
   text-decoration: none;
   color: #464646;
@@ -201,6 +206,10 @@ a.p-2.text-muted:hover{
   }
 }
 
+.card-columns.post{
+  column-count: 3 !important; 
+}
+
 @media screen and (max-width: 767px)
 {
   .card-columns{
@@ -333,6 +342,8 @@ ol>li.active{
 {
   #nav-links{
     display: none;
+    height: 0;
+    transition: 0.5s all;
   }
 
   .carousel.slide{
@@ -358,6 +369,8 @@ ol>li.active{
 
 .collapse-in{
   display: block !important;
+  /* height: 270px !important; */
+  transition: 0.5s all;
 }
 
 
@@ -496,4 +509,16 @@ ol>li.active{
 .about-header > .col-12 > h2{
   font-family: 'Open Sans';
   font-weight: 700;
+}
+
+
+/* -----------------------POST------------------------- */
+
+.post-image{
+  border-radius: 0.25rem;
+}
+
+.post-title{
+  font-weight: 700;
+  padding-bottom: 20px;
 }

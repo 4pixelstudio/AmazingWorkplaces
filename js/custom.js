@@ -8,12 +8,14 @@ $('.mobile-menu-trigger').click(function(){
         $('#nav-links-items').addClass('d-flex');
         $("#nav-links").removeClass('collapse-in');
         $("#nav-links").addClass('collapse-out');
+        $('#nav-links').height('-16px');
     }
     else{       
         $("#nav-links").removeClass('collapse-out');
         $("#nav-links").addClass('collapse-in');
         $('#nav-links-items').removeClass('d-flex');
         $('#nav-links-items').addClass('d-block');
+        $('#nav-links').height('254px');
     }
 });
 
