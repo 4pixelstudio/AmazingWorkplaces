@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="css/lightslider.css">
 
     <style>
-        .card{
+        .card {
             display: block !important;
-          }
+        }
     </style>
 
 </head>
@@ -30,18 +30,21 @@
     <div id='toTop'><i class="fa fa-angle-up"></i></div>
     <div class="container">
         <header class="blog-header py-3">
-            <div class="row flex-nowrap justify-content-between align-items-center">
-                <div class="col-3 pt-1">
+            <div class="row justify-content-between align-items-center">
+
+                <div class="col-lg-5 col-md-5 col-sm-12 col-12 pt-1 mobile-responsive" style="position:relative;">
+                    <span class='fa fa-search header-search-icon'></span>
+                    <input type="text" name='search' class='form-control header-search' placeholder="Search">
+                </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-5 col-5 pt-1">
                     <a class="text-muted" href="index.html"><img src="img/logoE1.png" alt="" class="logo"></a>
                 </div>
-                <div class="col-6 text-center">
 
+                <div class="col-lg-5 col-md-5 col-sm-7 col-7 d-flex justify-content-end align-items-center">
+                    <a class="text-muted" href="index.html"><img src="img/logo.png" alt="" class="logo1"></a>
                 </div>
-                <div class="col-3 d-flex justify-content-end align-items-center">
-                    <a class="text-muted search-bar" href="#">
-              <span class='fa fa-search'></span>
-            </a>
-                </div>
+
             </div>
         </header>
 
@@ -51,9 +54,9 @@
 
         <div class="nav-scroller py-2 mb-3 collapse-out" id='nav-links'>
             <nav class="nav d-flex justify-content-between" id='nav-links-items'>
-                <a class="p-2 text-muted active" href="index.html">Home</a>
+                <a class="p-2 text-muted" href="index.html">Home</a>
                 <a class="p-2 text-muted" href="about.html">About Us</a>
-                <a class="p-2 text-muted" href="#">In the News</a>
+                <a class="p-2 text-muted" href="#">In The News</a>
                 <a class="p-2 text-muted" href="#">Interviews</a>
                 <a class="p-2 text-muted" href="#">Blog</a>
                 <a class="p-2 text-muted" href="contact.html">Contact Us</a>
@@ -79,19 +82,11 @@
                                 </div>
                             </div>
 
-                            <p>After researching various parameters we came to the conclusion that underlying the differences of circumstance, industry, and individual ambition, an organization that operates at its fullest potential by allowing people to
-                                do their best work has six common imperatives.</p>
-                            <p>These parameters help you create an “Amazing Workplace.” In a nutshell, it’s a company where individual differences are nurtured; information is not suppressed or spun; the company adds value to employees, rather than merely
-                                extracting it from them; the organization stands for something meaningful; the work itself is intrinsically rewarding; and there are no illogical rules.</p>
-                            <p>The ideal organization is aware of dominant currents in its culture, work habits, dress code, traditions, and governing assumptions but, makes explicit efforts to transcend them. We are talking not just about the buttoned-down
-                                financial services company that embraces the IT guys in shorts and sandals, but also the hipster organization that doesn’t look surprisingly when someone wears a suit. Or the place where nearly everyone comes in at odd
-                                hours but that accommodates the one or two people who prefer a 9-to-5 schedule.</p>
-                            <p>The organization of your dreams recognizes that in the age of Facebook, WikiLeaks, and Twitter, you’re better off telling people the truth before someone else does. It respects its employees’ need to know what’s really going
-                                on so that they can do their jobs, particularly in volatile environments. Radical honesty is not easy to implement. It requires opening many different communication channels, which can be time-consuming to maintain. Particularly
-                                today, when trust levels among both employees and customers are so low and background noise is so high, organizations must work very hard to communicate what’s going on if they are to be heard and believed.</p>
-                            <p>The ideal company makes its best employees even better and the least of them better than they ever thought they could be. In robust economies, when competition for talent is fierce, it’s easy to see that the benefits of developing
-                                existing staff outweigh the costs of finding new workers. The employee-employer relationship is shifting in many industries from how much value can be extracted from workers to how much can be instilled in them. At heart,
-                                that’s what productivity improvement really means.</p>
+                            <p>After researching various parameters we came to the conclusion that underlying the differences of circumstance, industry, and individual ambition, an organization that operates at its fullest potential by allowing people to do their best work has six common imperatives.</p>
+                            <p>These parameters help you create an “Amazing Workplace.” In a nutshell, it’s a company where individual differences are nurtured; information is not suppressed or spun; the company adds value to employees, rather than merely extracting it from them; the organization stands for something meaningful; the work itself is intrinsically rewarding; and there are no illogical rules.</p>
+                            <p>The ideal organization is aware of dominant currents in its culture, work habits, dress code, traditions, and governing assumptions but, makes explicit efforts to transcend them. We are talking not just about the buttoned-down financial services company that embraces the IT guys in shorts and sandals, but also the hipster organization that doesn’t look surprisingly when someone wears a suit. Or the place where nearly everyone comes in at odd hours but that accommodates the one or two people who prefer a 9-to-5 schedule.</p>
+                            <p>The organization of your dreams recognizes that in the age of Facebook, WikiLeaks, and Twitter, you’re better off telling people the truth before someone else does. It respects its employees’ need to know what’s really going on so that they can do their jobs, particularly in volatile environments. Radical honesty is not easy to implement. It requires opening many different communication channels, which can be time-consuming to maintain. Particularly today, when trust levels among both employees and customers are so low and background noise is so high, organizations must work very hard to communicate what’s going on if they are to be heard and believed.</p>
+                            <p>The ideal company makes its best employees even better and the least of them better than they ever thought they could be. In robust economies, when competition for talent is fierce, it’s easy to see that the benefits of developing existing staff outweigh the costs of finding new workers. The employee-employer relationship is shifting in many industries from how much value can be extracted from workers to how much can be instilled in them. At heart, that’s what productivity improvement really means.</p>
                         </p>
                     </div>
                 </div>
@@ -99,7 +94,7 @@
                 <div class="row post-share-row">
                     <div class="col-7">
                         <a href=""><i class="fa fa-heart"></i> 21 Likes</a>
-                        <a href=""><i class="fa fa-comment"></i> 4 Comments</a>
+                        <a id="to-comments-section"><i class="fa fa-comment"></i> 3 Comments</a>
                     </div>
                     <div class="col-5 text-right">
                         <span style="font-weight:700; padding-right: 10px;">Share:</span>
@@ -171,25 +166,38 @@
                     </div>
                 </div>
 
-
                 <div id="accordion">
                     <div class="card outer">
                         <div class="card-header" id="headingOne">
                             <h5 class="mb-0">
                                 <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                Comments</button>
+                                Top Comments</button>
                             </h5>
                         </div>
 
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-                            <div class="card-body">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <a href="" class="card-title">Beautifully described. Corporates, do enough to keep right people motivated and stick to their jobs so...</a>
-                                        <p class="card-text"><small class="text-muted"><a href="" class='post-category'>By Admin</a></small></p>
+                            <div class="card-body comments-lightsliderOuter">
 
-                                    </div>
-                                </div>
+                                <ul id="lightSlider-comments">
+                                    <li>
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <a href="" class="card-title">Beautifully described. Corporates, do enough to keep right people motivated...</a>
+                                                <p class="card-text"><small class="text-muted"><a href="" class='post-category'>By Admin</a></small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <a href="" class="card-title">Corporates, do enough to keep right people motivated and stick to their jobs so...</a>
+                                                <p class="card-text"><small class="text-muted"><a href="" class='post-category'>By Admin</a></small></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+
                             </div>
                         </div>
                     </div>
@@ -199,33 +207,16 @@
             </div>
         </div>
 
-        <div class="row comment-row">
-            <div class="col-12">
-                <h4>Leave a Reply</h4>
-                <p><a href="">Logged in as Admin. Logout?</a></p>
-
-                <form action="" method='POST'>
-                    <label for="comment">Comment *</label>
-                    <textarea name="comment" id="comment" cols="30" rows="10" class="form-control" style='resize: none;'></textarea>
-
-                    <div class="row">
-                        <div class="col-12 text-left">
-                            <br><input type="submit" class="form-control contact-submit" style="margin: 0px;">
-                        </div>
-                    </div>
-                </form>
-            </div>
-        </div>
-
         <hr>
 
         <div class="row about-header post-header">
             <div class="col-12">
-                <h4>Related Post</h4>
+                <h1>Related Posts</h1>
             </div>
         </div>
 
-        <hr>
+        <!-- <hr> -->
+        <br>
 
         <ul id="lightSlider">
             <li>
@@ -302,9 +293,108 @@
             </li>
         </ul>
 
+        <hr>
 
+        <div class="row comment-row user-comments" style="margin-bottom: 2rem;" id='comments-section'>
+            <div class="col-12" style="margin-bottom: 2rem;">
+                <h4>Comments</h4>
+            </div>
+
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-lg-1 col-md-2 col-sm-3 col-3 text-center">
+                        <img src="img/user.png" alt="user" class="user-image img-fluid">
+
+                    </div>
+                    <div class="col-lg-11 col-md-10 col-sm-9 col-9 clearfix">
+                        <p class='user-comment'><a href="">By Admin</a><a class="user-reply"><i class='fa fa-reply'></i> Reply</a><a href="">January 12, 2018 at 5:15am</a></p>
+                        <p class='user-comment'>Beautifully described. Corporates, do enough to keep right people motivated and stick to their jobs so that you reap long term benefits. Regular measurement of employee happiness is a necessity towards creating an Amazing Workplace.</p>
+                    </div>
+                </div>
+
+                <div class="row reply">
+                    <div class="col-lg-1 col-md-2 col-sm-3 col-3 text-center">
+                        <img src="img/user.png" alt="user" class="user-image img-fluid">
+
+                    </div>
+                    <div class="col-lg-11 col-md-10 col-sm-9 col-9 clearfix">
+                        <p class='user-comment'><a href="">By Admin</a><a href="">January 12, 2018 at 5:15am</a></p>
+                        <p class='user-comment'>Beautifully described. Corporates, do enough to keep right people motivated and stick to their jobs so that you reap long term benefits. Regular measurement of employee happiness is a necessity towards creating an Amazing Workplace.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-1 col-md-2 col-sm-3 col-3 text-center">
+                        <img src="img/user.png" alt="user" class="user-image img-fluid">
+
+                    </div>
+                    <div class="col-lg-11 col-md-10 col-sm-9 col-9 clearfix">
+                        <p class='user-comment'><a href="">By Admin</a><a class="user-reply"><i class='fa fa-reply'></i> Reply</a><a href="">January 12, 2018 at 5:15am</a></p>
+                        <p class='user-comment'>Beautifully described. Corporates, do enough to keep right people motivated and stick to their jobs so that you reap long term benefits. Regular measurement of employee happiness is a necessity towards creating an Amazing Workplace.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row comment-row" style="margin-bottom: 2rem;" id='user-comment-row'>
+            <div class="col-12">
+                <h4>Leave a Reply</h4>
+                <p><a href="">Logged in as Admin. Logout?</a></p>
+
+                <form action="" method='POST'>
+                    <label for="comment">Comment *</label>
+                    <textarea name="comment" id="comment" cols="30" rows="10" class="form-control" style='resize: none;'></textarea>
+
+                    <div class="row">
+                        <div class="col-12 text-left">
+                            <br>
+                            <input type="submit" class="form-control contact-submit" style="margin: 0px;">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
 
         <footer class="blog-footer">
+
+            <div class="row footer-content text-left" style="color: #464646;">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h6>Recent Posts</h6>
+
+                    <p class='footer-post-title'><a href="">What are Amazing Workplaces!</a></p>
+                    <p class="footer-post-des">01 January 2018</p>
+
+                    <p class='footer-post-title'><a href="">Why You Should Celebrate Employee Appreciation Day</a></p>
+                    <p class="footer-post-des">01 January 2018</p>
+
+                    <p class='footer-post-title'><a href="">Why You Should Celebrate Employee Appreciation Day</a></p>
+                    <p class="footer-post-des">01 January 2018</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 second-child">
+                    <h6>Menu</h6>
+                    <ol class='footer-menu'>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">In The News</a></li>
+                        <li><a href="">Interviews</a></li>
+                        <li><a href="">Blog Articles</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ol>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 third-child">
+                    <h6>Contact</h6>
+                    <p>40, Noida Rd, D Block, Sector 10, Noida, Uttar&nbsp;Pradesh 201301</p>
+                    <p>contact@amazingworkplaces.co.in
+                        <br> amazingworkplaces@gmail.com</p>
+                    <p>+91&nbsp;9891348287 | +91&nbsp;9958545402</p>
+                    <p class="lead mb-0 share"><i class="fa fa-facebook"></i><i class="fa fa-twitter"></i><i class="fa fa-linkedin"></i><i class="fa fa-google-plus"></i></p>
+
+                </div>
+            </div>
+
+            <hr>
+
             <p>©2018 Amazing Workplaces</p>
             <p>Blog template built for <a href="https://amazingworkplaces.co.in/" class="brand">Amazing Workplaces</a> by <a href="https://traely.com" class="brand">Traely.com</a>.</p>
         </footer>
@@ -313,40 +403,14 @@
         <script src="js/vendor/popper.min.js"></script>
         <script src="js/bootstrap.js"></script>
         <script src="js/vendor/holder.min.js"></script>
+        <script src="js/lightslider.min.js"></script>
         <script src="js/custom.js"></script>
-        <script src="js/lightslider.js"></script>
         <script>
             Holder.addTheme('thumb', {
                 bg: '#55595c',
                 fg: '#eceeef',
                 text: 'Thumbnail'
-              });
-        </script>
-
-        <script type="text/javascript">
-            $(document).ready(function() {
-                  $("#lightSlider").lightSlider({
-                      item: 2,
-                      autoWidth: false,
-                      slideMove: 1,
-                      slideMargin: 15,
-                      speed: 400, //ms'
-                      auto: true,
-                      loop: true,
-                      freeMove:true,
-                      pause:5000,
-                      responsive : [
-                        {
-                            breakpoint:768,
-                            settings: {
-                                item:1,
-                                slideMove:1,
-                                slideMargin:6,
-                              }
-                        }
-                    ]
-                  });
-              });
+            });
         </script>
 </body>
 

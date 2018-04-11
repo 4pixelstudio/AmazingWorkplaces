@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -15,136 +16,181 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
+</head>
 
-  <body>
+<body>
     <div id='toTop'><i class="fa fa-angle-up"></i></div>
     <div class="container">
-      <header class="blog-header py-3">
-        <div class="row flex-nowrap justify-content-between align-items-center">
-          <div class="col-3 pt-1">
-            <a class="text-muted" href="index.html"><img src="img/logoE1.png" alt="" class="logo"></a>
-          </div>
-          <div class="col-6 text-center">
-            <a class="blog-header-logo text-dark header-text" href="index.html">Amazing Workplaces</a>
-            
-          </div>
-          <div class="col-3 d-flex justify-content-end align-items-center">
-            <a class="text-muted search-bar" href="#">
-              <span class='fa fa-search'></span>
-            </a>
-          </div>
-        </div>
-      </header>
-      <div class="mobile-menu text-center">
-         <a class="mobile-menu-trigger">Menus</a>
-      </div>
-      <div class="nav-scroller py-2 mb-3 collapse-out" id='nav-links'>
-        <nav class="nav d-flex justify-content-between" id='nav-links-items'>
-          <a class="p-2 text-muted" href="index.html">Home</a>
-          <a class="p-2 text-muted" href="about.html">About Us</a>
-          <a class="p-2 text-muted" href="#">In the News</a>
-          <a class="p-2 text-muted" href="#">Interviews</a>
-          <a class="p-2 text-muted" href="#">Blog</a>
-          <a class="p-2 text-muted active" href="contact.html">Contact Us</a>
-        </nav>
-      </div>
 
-      <div class="row about-header contact-header">
-          <div class="col-12">
-                <h1>Contact Us</h1>
-          </div>
-      </div>
+        <header class="blog-header py-3">
+            <div class="row justify-content-between align-items-center">
 
-      <hr><br>
-
-      <div class="row">
-        <div class="col-12">
-            <div id="map"></div>
-        </div>
-
-      </div>
-
-      
-
-      <div class="row contact-section-2">
-        <div class="col-lg-6 col-md-6 col-sm-12">
-            <div class="card">
-                <div class="card-body">
-                  <h1 class="contact-card-title">Tell us <br> what you think!</h1>
-
-                  <div class="row details">
-                    <div class="col-12">
-                        <h3>Address</h3>
-                        <p>40, Noida Rd, D Block, Sector 10, Noida, <br>Uttar Pradesh 201301</p>
-                    </div>
-
-                    <div class="col-12" style='margin-top:2rem;'>
-                      <h3>Contact us at</h3>
-                      <p><a href="mailto:contact@amazingworkplaces.co.in">contact@amazingworkplaces.co.in</a></p>
-                      <p><a href="mailto:amazingworkplaces@gmail.com">amazingworkplaces@gmail.com</a></p>
-                      <p>+91 9891348287  |  +91 9958545402</p>
-                    </div>
-                  </div>
+                <div class="col-lg-5 col-md-5 col-sm-12 col-12 pt-1 mobile-responsive" style="position:relative;">
+                    <span class='fa fa-search header-search-icon'></span>
+                    <input type="text" name='search' class='form-control header-search' placeholder="Search">
                 </div>
-              </div>
+
+                <div class="col-lg-2 col-md-2 col-sm-5 col-5 pt-1">
+                    <a class="text-muted" href="index.html"><img src="img/logoE1.png" alt="" class="logo"></a>
+                </div>
+
+                <div class="col-lg-5 col-md-5 col-sm-7 col-7 d-flex justify-content-end align-items-center">
+                    <a class="text-muted" href="index.html"><img src="img/logo.png" alt="" class="logo1"></a>
+                </div>
+
+            </div>
+        </header>
+
+        <div class="mobile-menu text-center">
+            <a class="mobile-menu-trigger">Menus</a>
+        </div>
+        <div class="nav-scroller py-2 mb-3 collapse-out" id='nav-links'>
+            <nav class="nav d-flex justify-content-between" id='nav-links-items'>
+                <a class="p-2 text-muted" href="index.html">Home</a>
+                <a class="p-2 text-muted" href="about.html">About Us</a>
+                <a class="p-2 text-muted" href="#">In The News</a>
+                <a class="p-2 text-muted" href="#">Interviews</a>
+                <a class="p-2 text-muted" href="#">Blog</a>
+                <a class="p-2 text-muted active" href="contact.html">Contact Us</a>
+            </nav>
         </div>
 
-        <div class="col-lg-6 col-md-6 col-sm-12 form-contact">
-          <!-- <h3>Tell us what you think!</h3> -->
-          <form action="" method="POST">
-            <label for="Name">Name *</label>
-            <input type="text" name="Name" class="form-control contact-form">
-            
-            <label for="Email">Email Address *</label>
-            <input type="text" class="form-control contact-form" name="Email">
-
-            <label for="Subject">Subject *</label>
-            <input type="text" class="form-control contact-form" name="Subject">
-
-            <label for="message">Message *</label>
-            <textarea name="message" id="message" cols="30" rows="10" class="form-control contact-form"></textarea>
-            <input type="submit" class="form-control contact-submit">
-          </form>
+        <div class="row about-header contact-header">
+            <div class="col-12">
+                <h1>Contact Us</h1>
+            </div>
         </div>
-      </div>
 
-    <footer class="blog-footer">
-      <p>©2018 Amazing Workplaces</p>
-      <p>Blog template built for <a href="https://amazingworkplaces.co.in/" class="brand">Amazing Workplaces</a> by <a href="https://traely.com" class="brand">Traely.com</a>.</p>
-    </footer>
+        <!-- <hr> -->
+        <br>
 
-    <!-- Bootstrap core JavaScript
+        <div class="row">
+            <div class="col-12">
+                <div id="map"></div>
+            </div>
+
+        </div>
+
+        <div class="row contact-section-2">
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="contact-card-title">Tell us <br> what you think!</h1>
+
+                        <div class="row details">
+                            <div class="col-12">
+                                <h3>Address</h3>
+                                <p>40, Noida Rd, D Block, Sector 10, Noida,
+                                    <br>Uttar Pradesh 201301</p>
+                            </div>
+
+                            <div class="col-12" style='margin-top:2rem;'>
+                                <h3>Contact us at</h3>
+                                <p><a href="mailto:contact@amazingworkplaces.co.in">contact@amazingworkplaces.co.in</a></p>
+                                <p><a href="mailto:amazingworkplaces@gmail.com">amazingworkplaces@gmail.com</a></p>
+                                <p>+91&nbsp;9891348287 | +91&nbsp;9958545402</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 form-contact">
+                <!-- <h3>Tell us what you think!</h3> -->
+                <form action="" method="POST">
+                    <label for="Name">Name *</label>
+                    <input type="text" name="Name" class="form-control contact-form">
+
+                    <label for="Email">Email Address *</label>
+                    <input type="text" class="form-control contact-form" name="Email">
+
+                    <label for="Subject">Subject *</label>
+                    <input type="text" class="form-control contact-form" name="Subject">
+
+                    <label for="message">Message *</label>
+                    <textarea name="message" id="message" cols="30" rows="10" class="form-control contact-form"></textarea>
+                    <input type="submit" class="form-control contact-submit">
+                </form>
+            </div>
+        </div>
+
+        <footer class="blog-footer">
+
+            <div class="row footer-content text-left" style="color: #464646;">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <h6>Recent Posts</h6>
+
+                    <p class='footer-post-title'><a href="">What are Amazing Workplaces!</a></p>
+                    <p class="footer-post-des">01 January 2018</p>
+
+                    <p class='footer-post-title'><a href="">Why You Should Celebrate Employee Appreciation Day</a></p>
+                    <p class="footer-post-des">01 January 2018</p>
+
+                    <p class='footer-post-title'><a href="">Why You Should Celebrate Employee Appreciation Day</a></p>
+                    <p class="footer-post-des">01 January 2018</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 second-child">
+                    <h6>Menu</h6>
+                    <ol class='footer-menu'>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About Us</a></li>
+                        <li><a href="">In The News</a></li>
+                        <li><a href="">Interviews</a></li>
+                        <li><a href="">Blog Articles</a></li>
+                        <li><a href="">Contact Us</a></li>
+                    </ol>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 third-child">
+                    <h6>Contact</h6>
+                    <p>40, Noida Rd, D Block, Sector 10, Noida, Uttar&nbsp;Pradesh 201301</p>
+                    <p>contact@amazingworkplaces.co.in
+                        <br> amazingworkplaces@gmail.com</p>
+                    <p>+91&nbsp;9891348287 | +91&nbsp;9958545402</p>
+                    <p class="lead mb-0 share"><i class="fa fa-facebook"></i><i class="fa fa-twitter"></i><i class="fa fa-linkedin"></i><i class="fa fa-google-plus"></i></p>
+
+                </div>
+            </div>
+
+            <hr>
+
+            <p>©2018 Amazing Workplaces</p>
+            <p>Blog template built for <a href="https://amazingworkplaces.co.in/" class="brand">Amazing Workplaces</a> by <a href="https://traely.com" class="brand">Traely.com</a>.</p>
+        </footer>
+
+        <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="js/vendor/popper.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="js/vendor/holder.min.js"></script>
-    <script src="js/custom.js"></script>
-    <script>
-      Holder.addTheme('thumb', {
-        bg: '#55595c',
-        fg: '#eceeef',
-        text: 'Thumbnail'
-      });
-    </script>
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="js/vendor/popper.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/vendor/holder.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script>
+            Holder.addTheme('thumb', {
+                bg: '#55595c',
+                fg: '#eceeef',
+                text: 'Thumbnail'
+            });
+        </script>
 
-    <script>
-      function initMap() {
-        var uluru = {lat: -25.363, lng: 131.044};
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 4,
-          center: uluru
-        });
-        var marker = new google.maps.Marker({
-          position: uluru,
-          map: map
-        });
-      }
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDD0zzhped9oet9bvjbxw3ecVoDKtZs3Pw&callback=initMap">
-    </script>
-  </body>
+        <script>
+            function initMap() {
+                var uluru = {
+                    lat: -25.363,
+                    lng: 131.044
+                };
+                var map = new google.maps.Map(document.getElementById('map'), {
+                    zoom: 4,
+                    center: uluru
+                });
+                var marker = new google.maps.Marker({
+                    position: uluru,
+                    map: map
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDD0zzhped9oet9bvjbxw3ecVoDKtZs3Pw&callback=initMap">
+        </script>
+</body>
+
 </html>
